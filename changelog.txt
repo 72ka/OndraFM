@@ -2,8 +2,8 @@ Verze 1.40 - zmeny oproti 1.33:
 make.asm
   - pridan include sort.asm
 main.asm:
-  - pridani obladani joystickem
-  - pridana hotkey "S" pro strideni souboru
+  - pridano ovladani joystickem
+  - pridana hotkey "S" pro setrideni souboru
   - uprava infotextu - pridani informace o joysticku
   - pridan infotext INFO8 o setrideni pomoci S
   - uprava cisla verze na 1.40, rok 2026
