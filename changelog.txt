@@ -1,0 +1,18 @@
+Verze 1.40 - zmeny oproti 1.33:
+make.asm
+  - pridan include sort.asm
+main.asm:
+  - pridani obladani joystickem
+  - pridana hotkey "S" pro strideni souboru
+  - uprava infotextu - pridani informace o joysticku
+  - pridan infotext INFO8 o setrideni pomoci S
+  - uprava cisla verze na 1.40, rok 2026
+  - na par mistech nahrazeni JR za JP (skoky nove mimo rozsah -128 az 127)
+mainprn.asm: 
+  - procedura LINES252 - volana pred nahranim programu, nastavi standardnich 252 linek, nektere programy to predpokladaji (Karel)
+  - vymazani radku - pozice radku posunuta o 2 linky nahoru (kvuli chybejicim spodnim tahum na poslednim radku)
+hexaprn.asm:
+  - vertikalni pozice posunuta  o 2 linky nahoru a pocitana pomoci RLCA misto puvodniho SLA A
+sort.asm:
+  - nova funkce SORT_FILENAMES, provadi setrideni souboru podle typu (adresar/soubor) a abecedy
+--------------------------------------------------------------------------------
