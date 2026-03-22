@@ -1,5 +1,5 @@
 ﻿## OndraSD File Mananger
-File manager used for loading progrtams into Ondra SPO 186 from SD card using Ondra-SD interface by Martin1 (more info: https://sites.google.com/site/ondraspo186/3-ondra-sd)
+File manager used for loading programs into Ondra SPO 186 from SD card using Ondra-SD interface by Martin1 (more info: https://sites.google.com/site/ondraspo186/3-ondra-sd)
 
 Based on Martin1's source codes, with some added functionalities:
 - joystick support
