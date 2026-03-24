@@ -8,8 +8,10 @@ Based on Martin1's source codes, with some added functionalities:
 
 ---
 
-Compile with *TASM* (version 3.2 tested)
+To compile with *TASM* (version 3.2 tested):
+
 `tasm -80 -b make.asm __ondrafm.bin`
 
-To compile with *SjASMPlus* (version v1.21.0 tested)  
+To compile with *SjASMPlus* (version v1.21.0 tested):
+
 `sjasmplus make.asm`
